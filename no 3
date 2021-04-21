@@ -1,0 +1,12 @@
+public class MatematikaCanggihBanget{
+	void pertambahan (int a, int b, int c, int d){
+		int hasil= a + b + c + d;
+		System.out.println(“hasil:” + hasil);
+	}
+
+void pertambahan (double a, double b, double c, double d){
+		double hasil= a + b + c + d;
+		System.out.println(“hasil:” + hasil);
+	}
+
+}
