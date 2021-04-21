@@ -1,0 +1,25 @@
+package uts;
+
+public class Motor {
+    String tipe;
+    int tahun;
+    
+    void printMotor(){
+        System.out.println("Type Motor : "+ tipe);
+        System.out.println("Tahun : "+ tahun);
+    }
+}
+
+
+
+package uts;
+
+public class MotorBeraksi {
+    public static void main(String[]args){
+        Motor motorku = new Motor();
+        
+        motorku.tipe = "Vario";
+        motorku.tahun = 2020;
+        motorku.printMotor();
+    }
+}
