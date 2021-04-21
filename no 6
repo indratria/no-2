@@ -1,0 +1,3 @@
+double kelvin = Double.parseDouble(kelvinTextField.getText());
+                        double reamur = (kelvin-273.15)*0.8;
+     reamurLabel.setText(reamur + " Reamur");
